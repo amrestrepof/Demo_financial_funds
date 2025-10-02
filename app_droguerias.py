@@ -17,7 +17,7 @@ except ValueError:
     st.stop()
     
 # --- Sección 1: Motor de Venta Cruzada y Sustitución ---
-st.header("1. 💊 Motor de Venta Cruzada y Sustitución (CrossSell IQ)")
+st.header("1.  Motor de Venta Cruzada y Sustitución (CrossSell IQ)")
 st.subheader("Simulador de Asistencia a Agente en Tiempo Real")
 
 col1, col2 = st.columns([1, 2])
@@ -41,13 +41,13 @@ with col2:
 
         # AJUSTE: Mostrar Alerta de Stock y Sustitución Unificada
         if recomendaciones['Alerta_Stock']:
-            st.error("🚨 ¡ALERTA DE STOCK BAJO!") # Alerta visual fuerte
+            st.error(" ¡ALERTA DE STOCK BAJO!") # Alerta visual fuerte
         
-        st.warning("🔄 **Motor de Sustituciones:**")
+        st.warning(" **Motor de Sustituciones:**")
         # El mensaje incluye info de stock bajo y sugerencia, si aplica
         st.write(recomendaciones['Sustituto_Mensaje']) 
 
-        st.info("🎯 **Venta Cruzada (Cross-Sell IQ):**")
+        st.info(" **Venta Cruzada (Cross-Sell IQ):**")
         st.write(f"Recomendar **{recomendaciones['Complemento']}** (Clientes que compran {producto_detectado} suelen comprar esto).")
     else:
         st.warning("Escuchando... Esperando detección de producto en la transcripción.")
@@ -58,7 +58,7 @@ st.markdown("---")
 
 ## 2. Modelo FRM con Geopriorización (FRM + L)
 
-st.header("2. 📈 Modelo FRM para Recompra y Retención")
+st.header("2.  Modelo FRM para Recompra y Retención")
 st.markdown("Identifica proactivamente clientes **en riesgo** y asigna la **Farmacia más Cercana**.")
 
 # --- LÓGICA DE FRM Y GEOLOCALIZACIÓN ---
@@ -132,7 +132,7 @@ st.markdown("---")
 
 ## 3. Visualización de Geolocalización
 
-st.header("3. 🗺️ Geolocalización de Clientes en Riesgo")
+st.header("3.  Geolocalización de Clientes en Riesgo")
 st.markdown("Visualiza dónde se concentran los clientes con prioridad **🔴 ALTA**.")
 
 # 1. Clientes en Riesgo (puntos rojos)
