@@ -3,7 +3,7 @@ import pandas as pd
 import numpy as np # Necesario para la lógica del mapa y distancia
 from datetime import datetime, timedelta 
 # Importaciones de módulos locales (deben existir)
-from data_simulator import generate_data 
+from data_simulator_droguerias import generate_data 
 from model_crosssell import detectar_producto, generar_recomendaciones
 
 # --- Configuración Inicial ---
