@@ -1,5 +1,5 @@
 # app.py
-# Colfondos · Analítica Predictiva + Call Center + Fidelización
+# · Analítica Predictiva + Call Center + Fidelización
 # Open rates segmentados por perfil (edad, salario, preferencia, historial)
 # Ejecutar: streamlit run app.py
 
@@ -21,8 +21,8 @@ from sklearn.metrics import (
 # --------------------------------
 # Configuración de la página
 # --------------------------------
-st.set_page_config(page_title="Colfondos · Vida Financiera + Call Center", layout="wide")
-st.title("Colfondos · Analítica Predictiva de Vida Financiera")
+st.set_page_config(page_title="Fondos · Vida Financiera + Call Center", layout="wide")
+st.title("Fondos · Analítica Predictiva de Vida Financiera")
 st.caption("Demo con datos simulados — Aporte Voluntario, Planes de Vivienda, Contactabilidad y Fidelización")
 
 # --------------------------------
@@ -452,7 +452,7 @@ with tab6:
         st.download_button(
             label="⬇️ Descargar cola de marcación (CSV)",
             data=calllist.to_csv(index=False).encode("utf-8"),
-            file_name="cola_callcenter_colfondos.csv",
+            file_name="cola_callcenter_fondos.csv",
             mime="text/csv"
         )
 
