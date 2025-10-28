@@ -159,14 +159,14 @@ with col2:
         st.markdown("---")
         
         # 1. Alerta de Stock y Sustitución
-        if recomendaciones['Alerta_Stock']:
-            st.error(" ¡ACCIÓN INMEDIATA: STOCK BAJO!") 
-            st.warning("**Motor de Sustituciones:**")
-            st.write(recomendaciones['Sustituto_Mensaje'])
-        else:
-             st.info(" Stock Suficiente. No requiere sustitución.")
+        #if recomendaciones['Alerta_Stock']:
+        #    st.error(" ¡ACCIÓN INMEDIATA: STOCK BAJO!") 
+        #   st.warning("**Motor de Sustituciones:**")
+        #   st.write(recomendaciones['Sustituto_Mensaje'])
+        #else:
+        #     st.info(" Stock Suficiente. No requiere sustitución.")
 
-        st.markdown("---")
+        #st.markdown("---")
         
         # 2. Venta Cruzada
         st.info(" **Venta Cruzada (Cross-Sell Sugerido):**")
