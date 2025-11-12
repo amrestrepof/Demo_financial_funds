@@ -113,7 +113,7 @@ def find_topics(text):
 # --- Interfaz de Streamlit ---
 st.set_page_config(layout="wide", page_title="Speech Analytics Demo")
 
-st.title("Demo de Speech Analytics 📊")
+st.title("Demo de Speech Analytics ")
 st.markdown("Análisis de sentimiento en llamadas (Agente vs. Cliente)")
 
 # --- MODIFICADO: Simulación de audio con un botón ---
