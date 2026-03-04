@@ -155,7 +155,7 @@ with st.expander(" ¿Por qué el modelo clasifica a un cliente como 'alto riesgo
     """)
 
 # ----------- G2. DISPERSIÓN SCORE VS DÍAS DE MORA (COLOR POR RIESGO) -----------
-with st.expander("🟢🟠🔴 ¿Cómo se agrupan los clientes según score y días de mora? (Dispersión interactiva)"):
+with st.expander(" ¿Cómo se agrupan los clientes según score y días de mora? (Dispersión interactiva)"):
     st.info("Visualiza los clientes en dos dimensiones críticas: Score de crédito y días de mora, coloreados por riesgo.")
     # Clasificación por riesgo para graficar
     condiciones = [
@@ -178,7 +178,7 @@ with st.expander("🟢🟠🔴 ¿Cómo se agrupan los clientes según score y d�
     """)
 
 # ----------- G3. MAPA DE CALOR DE RIESGO (Monto pendiente vs Score) -----------
-with st.expander("🌡️ ¿Dónde se concentran los riesgos más altos? (Mapa de calor)"):
+with st.expander(" ¿Dónde se concentran los riesgos más altos? (Mapa de calor)"):
     st.info("Visualiza la concentración de riesgo de mora combinando monto pendiente y score de crédito.")
     data_test['Score_bin'] = pd.cut(data_test['Score_credito'], bins=6)
     data_test['Monto_bin'] = pd.cut(data_test['Monto_pendiente'], bins=6)
