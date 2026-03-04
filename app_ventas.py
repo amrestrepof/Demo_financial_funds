@@ -9,7 +9,7 @@ import matplotlib.pyplot as plt
 
 st.set_page_config(page_title="Demo Telco: Ventas & Up-selling", layout="wide")
 
-st.title("🚀 Demo IA Telco — Conversión de Ventas & Up-selling / Cross-selling")
+st.title("Demo IA Telco — Conversión de Ventas & Up-selling / Cross-selling")
 st.markdown("""
 Este demo muestra cómo técnicas de **Machine Learning** pueden ayudar a optimizar la gestión de ventas y maximizar la conversión en campañas comerciales de Telco.
 """)

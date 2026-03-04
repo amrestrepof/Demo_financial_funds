@@ -9,3 +9,4 @@ openpyxl
 Pillow
 nltk
 xgboost
+wordcloud
